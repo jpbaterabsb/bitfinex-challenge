@@ -1,0 +1,18 @@
+{
+  "name": "bitifinex-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grape1": "grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002'",
+    "grape2": "grape --dp 20002 --aph 40001 --bn '127.0.0.1:20001'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grenache-nodejs-http": "^0.7.12",
+    "uuid": "^9.0.0"
+  }
+}
